@@ -28,4 +28,9 @@ public class PingPongEndpoint {
 	public String add() {
 		return grpcClientService.add();
 	}
+	@GetMapping("/mult")
+	public String add() {
+		return grpcClientService.mult();
+	}
+}
 }
