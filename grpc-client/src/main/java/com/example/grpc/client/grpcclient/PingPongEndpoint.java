@@ -33,4 +33,4 @@ public class PingPongEndpoint {
 		return grpcClientService.mult();
 	}
 }
-}
+
